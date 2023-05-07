@@ -6,6 +6,6 @@ public class TernaryAssignment {
         if (first > second){
             result= 10;
         } result = -10;
-        
+        System.out.println(result);
     }
 }
