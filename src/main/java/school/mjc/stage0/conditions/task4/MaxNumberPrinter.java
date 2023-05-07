@@ -1,7 +1,5 @@
 package school.mjc.stage0.conditions.task4;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class MaxNumberPrinter {
     public void printGreatest(int first, int second, int third) {
         if (first >=second) {
