@@ -4,17 +4,16 @@ import org.w3c.dom.ls.LSOutput;
 
 public class MaxNumberPrinter {
     public void printGreatest(int first, int second, int third) {
-        if (first >=second){
-            if (first >= third){
+        if (first >=second) {
+            if (first >= third) {
                 System.out.println(first);
+            } else System.out.println(third);
+        } else {
+            if (second >= third){
+                System.out.println(second);
             } else {
-                if (second >= third){
-                    System.out.println(second);
-                } else {
-                    System.out.println(third);
-                }
+                System.out.println(third);
             }
         }
-
     }
 }
